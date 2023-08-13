@@ -1,0 +1,20 @@
+.primary-button {
+    color: white;
+    background-color: rgb(161, 8, 8);
+    width: 150px;
+    line-height: 10px;
+    border-radius: 0.40em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px 20px;
+    cursor: pointer;
+    transition: all 100ms ease-in;
+    margin-left: 250%; /* Add margin between buttons */
+    margin-top: 5px;
+    
+  }
+  
+  .primary-button:hover {
+    background-color: rgb(139, 8, 8);
+  }

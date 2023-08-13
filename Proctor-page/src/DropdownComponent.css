@@ -1,0 +1,95 @@
+/* Component container */
+.component {
+  position: relative;
+  width: 267px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Text wrapper */
+.text-wrapper {
+  color: #333333;
+  font-family: "Outfit-Medium", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ffffffab;
+  border-radius: 9px;
+  box-shadow: 4px 4px 14px #00000040;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.rectangle {
+  background-color: #ffffff;
+  border-radius: 9px;
+  height: 56px;
+  opacity: 0.67;
+  width: 267px;
+}
+
+.div {
+  color: #666666;
+  font-family: "Montserrat-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.chevron {
+  height: 7px;
+  width: 12px;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  position: absolute;
+  top: 70px; /* Adjust to position the dropdown */
+  left: 0;
+  width: 267px;
+  background-color: #ffffff;
+  border-radius: 9px;
+  box-shadow: 4px 4px 14px #00000040;
+  display: none; /* Hide the dropdown by default */
+  flex-direction: column;
+  z-index: 1; /* Ensure the dropdown is above other elements */
+  padding: 8px 0; /* Add padding for better appearance */
+}
+
+/* Dropdown menu visible state */
+.dropdown-menu.open {
+  display: flex; /* Show the dropdown when open */
+}
+
+/* Dropdown items */
+.dropdown-menu .div {
+  padding: 10px;
+  transition: background-color 0.2s;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.dropdown-menu .div:last-child {
+  border-bottom: none;
+}
+
+.dropdown-menu .div:hover {
+  background-color: #f0f0f0;
+}
+
+/* Button */
+.button-container {
+  display:flex;
+  float: right;
+  margin-top: 100px;
+  
+
+}
+
+
