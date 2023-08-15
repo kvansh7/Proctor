@@ -3,7 +3,7 @@
   font-size: 36px;
   font-weight: bold;
   color: #333333;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .separator-line {
@@ -15,6 +15,7 @@
 .main-content{
 align-items: left;
 padding: 125px;
-
 }
-/* Add any additional styles as needed */
+.profile-photo{
+  margin-top:-100px;
+}

@@ -1,15 +1,14 @@
 import React, { useState } from "react";
 import "./DropdownComponent.css";
 import Button from "./Button"; // Import the Button component
+import { RiArrowDropDownLine } from "react-icons/ri";
+
+
 
 const DropdownItem = ({ text, onClick }) => (
   <div className="div" onClick={onClick}>
     {text}
   </div>
-);
-
-const Chevron = () => (
-  <img className="chevron" alt="Chevron" src="chevron-4.svg" />
 );
 
 const DropdownMenu = ({ isOpen, onSelect }) => {
@@ -79,8 +78,9 @@ const Navbar = ({ isOpen, onClick, selectedYear }) => (
   <div className={`navbar ${isOpen ? "open" : ""}`} onClick={onClick}>
     <div className="rectangle" />
     <DropdownItem text={selectedYear} />
-    <Chevron />
+    <RiArrowDropDownLine className="dropdown-icon" /> {/* Add the dropdown icon */}
   </div>
 );
+
 
 export default DropdownComponent;

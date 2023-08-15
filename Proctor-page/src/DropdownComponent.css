@@ -13,6 +13,8 @@
   font-size: 20px;
   font-weight: 500;
   margin-top: 10px;
+  margin-bottom:5px ;
+  margin-left:15px;
 }
 
 /* Navbar */
@@ -39,14 +41,8 @@
   font-family: "Montserrat-Regular", Helvetica;
   font-size: 20px;
   font-weight: 400;
-  margin-left: 10px;
+  float:left;
 }
-
-.chevron {
-  height: 7px;
-  width: 12px;
-}
-
 /* Dropdown menu */
 .dropdown-menu {
   position: absolute;
@@ -88,5 +84,9 @@
   float: right;
   position: absolute;
   left: 650px;
-  
+}
+.dropdown-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: auto; /* Push the icon to the right side */
 }
